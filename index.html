@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio profesional de Manuel Setien Joya, tecnico IT y desarrollador de software especializado en Java, Spring Boot, Android y desarrollo web.">
+  <meta name="author" content="Manuel Setien Joya">
+  <meta name="theme-color" content="#07111f">
+  <title>Manuel Setien Joya | Tecnico IT y desarrollador de software</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido-principal">Saltar al contenido principal</a>
+
+  <header class="site-header">
+    <div class="container header-container">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">
+        <span class="brand-initials">MSJ</span>
+        <span class="brand-role">Desarrollador DAM</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-controls="main-navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-navigation" id="main-navigation" aria-label="Navegacion principal">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre-mi">Sobre mi</a></li>
+          <li><a href="#tecnologias">Tecnologias</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido-principal">
+    <section class="hero section" id="inicio">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <p class="section-label">Portafolio profesional</p>
+          <h1>Manuel Setien Joya</h1>
+          <p class="hero-title">Tecnico IT y desarrollador de software</p>
+          <p class="hero-description">Desarrollo soluciones completas, documentadas y versionadas, desde APIs REST y aplicaciones Android hasta programas Java y proyectos web.</p>
+          <p class="hero-location">Sevilla, Espana</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#proyectos">Ver proyectos</a>
+            <a class="button button-secondary" href="assets/documents/CV-Manuel-Setien-Joya.pdf" target="_blank">Ver curriculum</a>
+            <a class="button button-secondary" href="assets/documents/CV-Manuel-Setien-Joya.pdf" download>Descargar CV</a>
+          </div>
+          <div class="professional-links">
+            <a href="https://github.com/MDM214" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/manuel-setien-joya-32050a366" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <picture>
+            <source media="(max-width: 600px)" srcset="assets/images/profile/manuel-setien-joya-320.webp">
+            <img src="assets/images/profile/manuel-setien-joya.webp" alt="Fotografia profesional para el portafolio" width="720" height="720">
+          </picture>
+          <div class="current-work">
+            <p class="current-work-label">Estado actual</p>
+            <p><strong>TaskManager API</strong> · Proyecto finalizado</p>
+            <p><strong>Cliente Android</strong> · En desarrollo</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alternative" id="sobre-mi">
+      <div class="container section-grid">
+        <div class="section-heading">
+          <p class="section-label">Sobre mi</p>
+          <h2>Experiencia tecnica y desarrollo de software</h2>
+        </div>
+        <div class="section-content">
+          <p>Soy tecnico informatico y desarrollador de aplicaciones multiplataforma, con experiencia en soporte a usuarios, reparacion y montaje de equipos, redes, TPV y asistencia tecnica a empresas.</p>
+          <p>Tras completar mi formacion en Desarrollo de Aplicaciones Multiplataforma, he orientado mi trayectoria hacia el desarrollo de software, con especial interes en Java, Spring Boot, Android y soluciones web.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="tecnologias">
+      <div class="container">
+        <div class="section-heading section-heading-centered">
+          <p class="section-label">Tecnologias</p>
+          <h2>Herramientas con las que trabajo</h2>
+        </div>
+        <div class="technology-grid">
+          <article class="technology-card"><h3>Backend</h3><p>Java · Spring Boot · Spring Security · API REST · JWT · Maven</p></article>
+          <article class="technology-card"><h3>Datos</h3><p>MariaDB · MySQL · H2 · SQL · Spring Data JPA</p></article>
+          <article class="technology-card"><h3>Movil</h3><p>Android · Java · Kotlin · JSON · Consumo de APIs</p></article>
+          <article class="technology-card"><h3>Calidad</h3><p>Git · GitHub · JUnit · Mockito · JaCoCo · Swagger</p></article>
+          <article class="technology-card"><h3>Web</h3><p>HTML5 · CSS3 · JavaScript · PHP · WordPress</p></article>
+          <article class="technology-card"><h3>Soporte IT</h3><p>Equipos · Sistemas · Redes · TPV · CCTV · Usuarios</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alternative" id="proyectos">
+      <div class="container">
+        <div class="section-heading section-heading-centered">
+          <p class="section-label">Proyectos</p>
+          <h2>Proyectos seleccionados</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card project-featured">
+            <div class="project-image-container">
+              <img src="assets/images/projects/taskmanager/01-repositorio-taskmanager.webp" alt="Repositorio de TaskManager API en GitHub" width="1600" height="900" loading="lazy">
+            </div>
+            <div class="project-content">
+              <p class="project-number">Proyecto 01 · Finalizado</p>
+              <h3>TaskManager API</h3>
+              <p>API REST para la gestion de usuarios y tareas con autenticacion JWT, autorizacion, validaciones, MariaDB, OpenAPI y pruebas automatizadas.</p>
+              <p class="technology-tags">Java · Spring Boot · Spring Security · JWT · MariaDB · JUnit · JaCoCo</p>
+              <div class="project-actions">
+                <a class="button button-primary" href="https://github.com/MDM214/taskmanager-api" target="_blank" rel="noopener noreferrer">Ver repositorio</a>
+                <a class="button button-secondary" href="#galeria-taskmanager">Ver capturas</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card"><div class="project-content"><p class="project-number">Proyecto 02 · En desarrollo</p><h3>Cliente Android</h3><p>Aplicacion movil conectada a TaskManager API para autenticar usuarios y gestionar tareas.</p></div></article>
+          <article class="project-card"><div class="project-content"><p class="project-number">Proyecto 03 · Proximamente</p><h3>Gestor de tareas Java</h3><p>Aplicacion centrada en POO, organizacion modular y persistencia.</p></div></article>
+          <article class="project-card"><div class="project-content"><p class="project-number">Proyecto 04 · Proximamente</p><h3>Tic&amp;Tac 3.0</h3><p>Actualizacion profesional del proyecto web final con identidad visual propia y diseno adaptable.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="galeria-taskmanager">
+      <div class="container">
+        <div class="section-heading section-heading-centered">
+          <p class="section-label">TaskManager API</p>
+          <h2>Desarrollo, documentacion y calidad</h2>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-item"><img src="assets/images/projects/taskmanager/01-repositorio-taskmanager.webp" alt="Repositorio profesional de TaskManager API" width="1600" height="900" loading="lazy"><figcaption><strong>Repositorio profesional</strong><span>Codigo, descripcion, temas y version estable.</span></figcaption></figure>
+          <figure class="gallery-item"><img src="assets/images/projects/taskmanager/02-swagger-endpoints.webp" alt="Endpoints documentados con Swagger" width="1600" height="900" loading="lazy"><figcaption><strong>Documentacion OpenAPI</strong><span>Endpoints de autenticacion, usuarios y tareas.</span></figcaption></figure>
+          <figure class="gallery-item"><img src="assets/images/projects/taskmanager/03-tests-build-success.webp" alt="Resultado satisfactorio de las pruebas automatizadas" width="1600" height="900" loading="lazy"><figcaption><strong>Pruebas automatizadas</strong><span>57 pruebas completadas sin fallos.</span></figcaption></figure>
+          <figure class="gallery-item"><img src="assets/images/projects/taskmanager/04-cobertura-jacoco.webp" alt="Informe de cobertura JaCoCo" width="1600" height="455" loading="lazy"><figcaption><strong>Cobertura JaCoCo</strong><span>Comprobacion de las capas principales.</span></figcaption></figure>
+          <figure class="gallery-item"><img src="assets/images/projects/taskmanager/05-creacion-tarea-token-protegido.webp" alt="Creacion autenticada de una tarea con el token protegido" width="1600" height="900" loading="lazy"><figcaption><strong>Endpoint protegido</strong><span>Creacion autenticada con respuesta satisfactoria.</span></figcaption></figure>
+          <figure class="gallery-item"><img src="assets/images/projects/taskmanager/06-readme-profesional.webp" alt="README profesional de TaskManager API" width="1600" height="900" loading="lazy"><figcaption><strong>README profesional</strong><span>Funcionalidades, tecnologias y ejecucion.</span></figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-contact" id="contacto">
+      <div class="container contact-container">
+        <div class="contact-content"><p class="section-label">Contacto</p><h2>Disponible para nuevas oportunidades profesionales</h2><p>Consulta mis proyectos o contacta conmigo directamente.</p></div>
+        <address class="contact-options">
+          <a href="mailto:manuelsetien.j@gmail.com"><span>Correo</span><strong>manuelsetien.j@gmail.com</strong></a>
+          <a href="tel:+34691119655"><span>Telefono</span><strong>691 119 655</strong></a>
+          <a href="https://github.com/MDM214" target="_blank" rel="noopener noreferrer"><span>GitHub</span><strong>github.com/MDM214</strong></a>
+          <a href="https://www.linkedin.com/in/manuel-setien-joya-32050a366" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><strong>Manuel Setien Joya</strong></a>
+        </address>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-container"><p>© <span id="current-year">2026</span> Manuel Setien Joya</p><a href="#inicio">Volver al inicio</a></div>
+  </footer>
+</body>
+</html>

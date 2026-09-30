@@ -1,0 +1,32 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Visual Studio Code
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+
+# Archivos temporales
+*.tmp
+*.temp
+*.log
+*~
+
+# Copias de seguridad
+*.bak
+*-anterior.html
+
+# Dependencias futuras
+node_modules/
+
+# Configuración local
+.env
+.env.*
+!.env.example
+
+# Salidas de compilación
+dist/
+build/
